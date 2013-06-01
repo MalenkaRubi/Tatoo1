@@ -1,0 +1,66 @@
+@font-face {
+    font-family: ChineseRocksRg-Regular;
+    src: url(fonts/ChineseRocksRg-Regular.ttf);
+}
+
+.wrapper    { width: 1190px; margin: auto; background-image: url("img/BG.png"); position: relative;  padding-bottom: 109px  }
+
+
+/*Header*/
+
+header      { float: right; margin-top: 97px; margin-right: 311px; z-index: 3; position: relative}
+header a    { font-family: tahoma; font-size: 12px; color: #7f7f7f; }
+#LogIn      { border-right: 1px solid #7f7f7f; padding-right: 5px }
+.twitter    { margin-left: 15px}
+
+/*Nav*/
+nav         { background-image: url("img/navBG.png"); ; height: 142px; display: inline-block; background-position: 149px 0px;
+              background-repeat: no-repeat; position: relative; width: 1123px; margin-left: 105px; z-index: 2}
+nav a       { text-decoration: none; font-size: 17px; font-family: TAHOMA;}
+#Wind       { margin-left: 43px; margin-right: 17px; color: #00407e;}
+#Cloud      { color: #d8f9ff; margin-right: 20px; margin-left: 26px}
+#Mob        { color: #d8f9ff; margin-right: 24px; margin-left: 21px}
+#Trial      { color: #d8f9ff; margin-right: 43px; margin-left: 41px}
+#Gift       { color: #d8f9ff; margin-right: 34px; margin-left: 29px}
+#Sup        { color: #d8f9ff; margin-right: 33px; margin-left: 23px}
+#Cont       { color: #d8f9ff; margin-right: 24px; margin-left: 20px}
+
+
+/*Slider*/
+
+.slider     { position: relative; z-index: 1; left: 106px; top: -162px; background-image: url("img/sliderBG.png"); height: 445px;
+              width: 979px;  background-repeat: no-repeat}
+.slider h2  { font-family: Stencil Std; font-size: 48px; color: white; font-weight:bold; width: 253px; position: absolute;
+              left: 677px; top: 122px}
+i.left      { background-image: url("img/left.png"); background-position:123px 119px; width: 30px; height: 30px;
+              display: inline-block;  position: absolute; left: -35px; top: 408px}
+i.right     { background-image: url("img/right.png"); background-position:120px 119px; width: 30px; height: 30px;
+              display: inline-block;  position: absolute; top: 408px; left: 985px}
+
+/*BODY*/
+
+.body       { margin: -160px 106px 76px;  position: relative; padding-bottom: 26px }
+.body h3   { font-family: ChineseRocksRg-Regular; color: #0071dd; font-size: 40px; margin-top:40px; margin-bottom: 28px }
+.body p     { font-family: tahoma; font-size: 14px; color: #565656;}
+.articleLeft        { width: 483px; float: left;  margin-bottom: 76px}
+.articleLeft span   { font-family: ChineseRocksRg-Regular; color: #00b7b1; font-size: 40px;}
+.articleLeft img    { margin-top: 45px;}
+.articleRight       { width: 461px; float: right;  margin-bottom: 76px}
+
+/*footer*/
+
+footer      { clear: both; height: 192px; margin: 76px 106px 0px; background-image: url("img/footerBG.png"); line-height: 90% }
+footer h4   { font-family: ChineseRocksRg-Regular; color: white; font-size: 16px; padding-bottom: 13px; padding-top: 20px; margin: 0}
+footer a    { text-decoration: none; color: #a9d2ff;  font-family: tahoma, sans-serif; font-size: 12px; border-right: 1px solid #a9d2ff;
+              padding: 0 5px; padding-left: 3px }
+footer span { color: #a9d2ff;  font-family: tahoma; font-size: 12px; }
+.About      { width: 90px; float: left; margin-left: 22px}
+.About a    { border-right: none}
+.Cloud1     { width: 226px; float: left; margin-left: 22px;}
+.Cloud2     { width: 221px; float: left; margin-left: 19px}
+.Help       { width: 162px; float: left; margin-left: 19px}
+.Contacts   { width: 164px; float: left; margin-left: 22px; padding-top: 46px}
+.footerNav  { margin-top: 10px}
+.Network    { margin-top: 20px}
+.Network a  {  border-right: none; padding: 0}
+.Network img { margin-left: 0}
